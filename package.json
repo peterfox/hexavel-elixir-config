@@ -1,6 +1,6 @@
 {
   "name": "hexavel-elixir-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configures Laravel Elixir to work with Hexavel",
   "main": "main.js",
   "scripts": {

@@ -3,10 +3,10 @@ require('laravel53-elixir-behat');
 
 var Path = require('path');
 
-elixir.config.appPath = Path.normalize('src');
-elixir.config.viewPath = Path.normalize('support/resources/views');
-elixir.config.assetsPath = Path.normalize('support/resources/assets/');
-elixir.config.testing.phpSpec.path = Path.normalize('support/spec');
-elixir.config.testing.phpSpec.command = Path.normalize('bin/phpspec') + ' run';
-elixir.config.testing.behat.path = Path.normalize('support/features');
-elixir.config.testing.behat.command = Path.normalize('bin/behat');
+Elixir.config.appPath = Path.normalize('src');
+Elixir.config.viewPath = Path.normalize('support/resources/views');
+Elixir.config.assetsPath = Path.normalize('support/resources/assets/');
+Elixir.config.testing.phpSpec.path = Path.normalize('support/spec');
+Elixir.config.testing.phpSpec.command = Path.normalize('bin/phpspec') + ' run';
+Elixir.config.testing.behat.path = Path.normalize('support/features');
+Elixir.config.testing.behat.command = Path.normalize('bin/behat');
