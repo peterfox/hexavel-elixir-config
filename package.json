@@ -1,0 +1,20 @@
+{
+  "name": "hexavel-elixir-config",
+  "version": "1.0.0",
+  "description": "Configures Laravel Elixir to work with Hexavel",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Laravel",
+    "Hexavel",
+    "Elixir"
+  ],
+  "author": "Peter Fox <peter.fox@peterfox.me> (http://www.peterfox.me)",
+  "license": "MIT",
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-9",
+    "laravel53-elixir-behat": "^1.0.0"
+  }
+}
